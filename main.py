@@ -7,7 +7,7 @@ while falser != 0:
     checker = falser % 10
     if checker == inputdigit:
         flag = 1
-    falser = falser / 10
+    falser = int(falser / 10)
 
 if flag == 1:
     print("Approved")
